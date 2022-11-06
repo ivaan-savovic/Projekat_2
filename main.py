@@ -1,10 +1,30 @@
-import pip
 import math
 
-polje = bool('Polje')
-# polje_1 = 3.52
-# polje_2 = 5
-# polje_3 = 2
+polje = 0
+polje_1 = 3
+polje_2 = 5
+polje_3 = 10
 polje_4 = polje_1 + polje_2 + polje_3
-print(polje_4)
-# print(polje)
+
+while polje < polje_4:
+  print(polje)
+  if polje == polje_4:
+    break
+  polje += 1
+while polje < polje_4:
+  polje += 1
+  if polje == polje_4:
+    continue
+  print(polje)
+def donje_polje():
+    if donje_polje == polje_4:
+        return True
+    else:
+        return False
+def gornje_polje():
+    if gornje_polje == polje_4:
+        return False
+    else:
+        return True
+print(donje_polje())
+print(gornje_polje())
