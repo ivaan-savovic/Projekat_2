@@ -46,3 +46,18 @@ mydoubler = myfunc(2)
 mytripler = myfunc(3)
 print(mydoubler(11))
 print(mytripler(11))
+
+#ARRAY TEST
+cars = ["Ford", "Volvo", "BMW"]
+cars.append("Clio")
+for x in cars:
+  print(x)
+
+#CLASS TEST
+class Person:
+  def __init__(self, name, age):
+    self.name = name
+    self.age = age
+p1 = Person("Ivan", 37)
+print(p1.name)
+print(p1.age)
