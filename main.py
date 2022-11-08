@@ -92,11 +92,11 @@ class Student(Person):
 x = Person("John", "Doe")
 x.printname()
 
-x = 9
+q = 9
 c = 2
-b = x * c
+b = q * c
 print(b)
 text = "hello"
 text1 = text + " " + str(b)
 print(text1)
-print("Ja sam Andrej i imam" + " " + str(x) + " " + "godina")
+print("Ja sam Andrej i imam" + " " + str(q) + " " + "godina")
