@@ -16,7 +16,7 @@ while polje < polje_4:
   if polje == polje_4:
     continue
   print(polje)
-
+#
 #FUNCTION TEST
 def donje_polje():
     if donje_polje == polje_4:
@@ -91,3 +91,12 @@ class Student(Person):
 
 x = Person("John", "Doe")
 x.printname()
+
+x = 9
+c = 2
+b = x * c
+print(b)
+text = "hello"
+text1 = text + " " + str(b)
+print(text1)
+print("Ja sam Andrej i imam" + " " + str(x) + " " + "godina")
