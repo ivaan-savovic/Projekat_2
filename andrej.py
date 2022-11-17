@@ -12,8 +12,3 @@ while polje < polje_4:
   if polje == polje_4:
     break
   polje += 1
-# while polje > polje_4:
-#   polje += 1
-#   if polje == polje_4:
-#     continue
-#   print(polje)
