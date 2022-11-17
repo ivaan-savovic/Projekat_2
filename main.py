@@ -11,12 +11,12 @@ while polje < polje_4:
   if polje == polje_4:
     break
   polje += 1
-while polje < polje_4:
+while polje > polje_4:
   polje += 1
   if polje == polje_4:
     continue
   print(polje)
-#
+
 #FUNCTION TEST
 def donje_polje():
     if donje_polje == polje_4:
