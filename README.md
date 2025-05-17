@@ -1,1 +1,1 @@
-Porjekat za vezbu de se konstantno menjaju instance
+Project for changing instances
